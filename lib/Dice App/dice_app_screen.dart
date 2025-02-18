@@ -24,18 +24,18 @@ class _DiceAppScreenState extends State<DiceAppScreen> {
     return Scaffold(
       backgroundColor: Colors.deepPurple,
       appBar: AppBar(
-        title: Text(
-          "DICE APP",
-          style: TextStyle(
-            fontSize: 18.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: "Sans Code Pro",
-            color: Colors.white,
-          ),
+      title: Text(
+        "DICE APP",
+        style: TextStyle(
+          fontSize: 18.0,
+          fontWeight: FontWeight.bold,
+          fontFamily: "Sans Code Pro",
+          color: Colors.white,
         ),
-        backgroundColor: Colors.deepPurple.shade900,
-        centerTitle: true,
       ),
+      backgroundColor: Colors.deepPurple.shade900,
+      centerTitle: true,
+    ),
       body: SafeArea(
         child: Center(
           child: Padding(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_learning/Dice%20App/dice_app_screen.dart';
+import 'package:flutter_learning/Quizzler%20App/quizzler_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
      debugShowCheckedModeBanner: false ,
-      home: const DiceAppScreen(),
+      home: const QuizzlerScreen(),
     );
   }
 }
