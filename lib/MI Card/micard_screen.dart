@@ -65,6 +65,19 @@ class MiCardScreen extends StatelessWidget {
                 ),
               )
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(Icons.facebook,  size: 22,
+                  color: Colors.deepPurple.shade100),
+              SizedBox(width: 10,),
+              Icon(Icons.snapchat,  size: 22,
+                  color: Colors.deepPurple.shade100),
+              SizedBox(width: 10,),
+              Icon(Icons.share,  size: 22,
+                  color: Colors.deepPurple.shade100),
+            ],
+          )
         ],
       )
 

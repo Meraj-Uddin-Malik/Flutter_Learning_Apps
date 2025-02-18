@@ -39,4 +39,4 @@ flutter:
 
     - family: Source Code Pro
       fonts:
-        - asset: fonts/SourceCodePro-VariableFont.ttf
+        - asset: fonts/SourceCodePro-VariableFont_wght.ttf
