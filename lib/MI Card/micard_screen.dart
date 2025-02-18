@@ -30,6 +30,11 @@ class MiCardScreen extends StatelessWidget {
                 fontFamily: 'Source Code Pro',
                 color: Colors.white
             ),),
+          SizedBox(height: 20.0,
+          width: 250,
+          child: Divider(
+            color: Colors.deepPurple.shade100,
+          ),),
           Card(
             color: Colors.white,
             margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0,),
